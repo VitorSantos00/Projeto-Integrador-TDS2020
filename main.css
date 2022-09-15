@@ -93,3 +93,41 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    .box-01 ul li {
+        position: relative;
+        margin-right: 2vh;
+        align-items: center;
+        color: #131416;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .box-02 ul li {
+        position: relative;
+        margin-right: 2vh;
+        align-items: center;
+        color: #131416;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .box-03 ul li {
+        position: relative;
+        margin-right: 2vh;
+        align-items: center;
+        color: #131416;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .box-04 ul li {
+        position: relative;
+        margin-right: 2vh;
+        align-items: center;
+        color: #131416;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
