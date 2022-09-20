@@ -132,13 +132,35 @@ body {
     font-weight: bold;
 }
 
-.box-04 ul li {
+.box-04 img {
+    height: 265px;
+    width: 466px;
+    border-radius: 5px;
+    border: 2px solid #131416;
+    margin-left: 6vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+.box-05 {
+    margin-top: 10vh;
+}
+
+.box-05 h1 {
+    color: #131416;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box-05 ul li {
     color: #131416;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.box-04 video {
+.box-05 video {
     margin-left: 6vh;
     margin-top: 4vh;
 }
@@ -156,37 +178,37 @@ body {
 @media (max-width: 600px) {
 
     .container {
-        flex-direction: column;
-        margin-bottom: 10vh;
-        margin-top: 5vh;
-        align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    align-items: center;
     }
 
     .box-01 ul li {
-        position: relative;
-        margin-right: 2vh;
-        align-items: center;
-        color: #131416;
-        font-size: 16px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-right: 2vh;
+    align-items: center;
+    color: #131416;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     .box-02 ul li {
-        position: relative;
-        margin-right: 2vh;
-        align-items: center;
-        color: #131416;
-        font-size: 16px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-right: 2vh;
+    align-items: center;
+    color: #131416;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     .box-03 ul li {
-        position: relative;
-        margin-right: 2vh;
-        align-items: center;
-        color: #131416;
-        font-size: 16px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-right: 2vh;
+    align-items: center;
+    color: #131416;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     .box-03 img {
@@ -195,15 +217,31 @@ body {
     }
 
     .box-04 {
-        display: flex;
+    display: flex;
     }
 
-    .box-04 ul li {
-        position: relative;
-        margin-right: 2vh;
-        align-items: center;
-        color: #131416;
-        font-size: 16px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    .box-04 img {
+    height: 200px;
+    width: 210px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    }
+
+    .box-05 {
+    display: flex;
+    }
+
+    .box-05 ul li {
+    position: relative;
+    margin-right: 2vh;
+    align-items: center;
+    color: #131416;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .box-05 video {
+    width: 80%;
+    margin-left: 40px;
     }
 }
